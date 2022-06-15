@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "minato.github.io/minato.github.io"
+		}
+	],
+	"settings": {
+		"compile-hero.disable-compile-files-on-did-save-code": false,
+		"emmet.triggerExpansionOnTab": true,
+		"compile-hero.sass-output-directory": "./dist",
+		"compile-hero.scss-output-directory": "../"
+	}
+}
