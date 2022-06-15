@@ -1,22 +1,10 @@
 @charset "UTF-8";
-boby {
-  margin: 0;
-  padding: 0;
-}
-
-boby {
-  margin: 0;
-}
-
-header {
-  background-color: aquamarine;
-}
 
 .container {
-  margin: auto;
-  width: 90%;
   max-width: 1140px;
-  background-color: cadetblue;
+  margin: 0 auto;
+  width: 150%;
+  background-color: rgb(253, 251, 185);
 }
 
 header > .container > nav > ul {
@@ -34,6 +22,13 @@ header > .container > nav > ul > li > a {
   letter-spacing: 2px;
 }
 
+/* 圖片大小 */ 
+div{
+  margin: 15px;
+  float:left;
+}
+
+
 .img-fluid {
   width: 100%;
 }
@@ -47,3 +42,5 @@ header > .container > nav > ul > li > a {
 .col-4 {
   width: 33.33333%;
 }
+
+/* 頁尾 */
