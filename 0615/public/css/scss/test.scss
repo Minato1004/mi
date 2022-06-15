@@ -2,7 +2,10 @@ boby{
     margin: 0;
     padding: 0;
  }
-
+ 
+ boby{
+    margin: 0;
+ }
  
  header{
     background-color: aquamarine;
@@ -10,11 +13,10 @@ boby{
  
  .container{
     margin: auto;
-    width: 150%;
+    width: 90%;
     max-width: 1140px;
-    background-color: aquamarine; 
+    background-color: cadetblue;   
  }
-
  header>.container>nav>ul{
     display: flex;
  /*justify-content: space-between; */
@@ -28,17 +30,5 @@ boby{
     font-size: 1.2em;
     letter-spacing: 2px;
    }
-
-
  
-.img-fluid{
-    width:100%
-}
-.row{
-    display: flex;
-    flex-wrap: wrap; /*換行*/
-}
-.col-4{
-    width: 33.33333%;
-
-}
+ 
