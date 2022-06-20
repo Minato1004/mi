@@ -1,7 +1,6 @@
 @charset "UTF-8";
-
-header{
-  height: 200px;
+header {
+  height: 300px;
 }
 
 ul, ol {
@@ -16,68 +15,69 @@ body {
   margin: 0;
 }
 
-header>h1{
+header > h1 {
   line-height: 217px;
   text-align: center;
-  color: rgb(250, 246, 173);
+  color: #faf6ad;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-nav>ul{
+nav > ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  
 }
 
-nav>ul>li{
+nav > ul > li {
   float: left;
   width: 25%;
   box-sizing: border-box;
-  border-right: 5px solid rgb(249, 248, 248);
+  border-right: 5px solid #f9f8f8;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(250,246,173);
-  color: rgb(17, 17, 16);
+  background-color: #faf6ad;
+  color: #111110;
   text-align: center;
   line-height: 50px;
   text-decoration: none;
   font-size: 24px;
 }
 
-nav>ul>li>a:hover {
+nav > ul > li > a:hover {
   background-color: rgba(0, 0, 0, 0);
 }
 
-nav>ul>li:last-child{border-right: none;}
+nav > ul > li:last-child {
+  border-right: none;
+}
 
-nav>ul>li>a{
+nav > ul > li > a {
   display: block;
-width: 100%;
-text-align: center;
-line-height: 60px;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
 }
 
-.box1:hover{
-    background-color: #000;
-    color: #fff;
+.box1:hover {
+  background-color: #000;
+  color: #fff;
 }
 
-.breadcrumb{
-display: flex;
-margin-top: 20px;
-margin-bottom: 20px;  
+.breadcrumb {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.breadcrumb a{
+.breadcrumb a {
   color: black;
 }
 
-.btn-primary{
+.btn-primary {
   width: 150px;
   height: 40px;
   display: block;
@@ -88,17 +88,16 @@ margin-bottom: 20px;
   cursor: pointer;
   line-height: 40px;
   color: #000;
-  background-color: rgb(250, 246, 173);
-  transition: all .3s linear;
+  background-color: #faf6ad;
+  transition: all 0.3s linear;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #000;
   color: #fff;
 }
 
-         
-.btn-primary{
+.btn-primary {
   width: 150px;
   height: 40px;
   display: block;
@@ -109,17 +108,16 @@ margin-bottom: 20px;
   cursor: pointer;
   line-height: 40px;
   color: #000;
-  background-color: rgb(250, 246, 173);
-  transition: all .3s linear;
+  background-color: #faf6ad;
+  transition: all 0.3s linear;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #000;
   color: #fff;
 }
 
-          
-.btn-primary{
+.btn-primary {
   width: 150px;
   height: 40px;
   display: block;
@@ -130,17 +128,16 @@ margin-bottom: 20px;
   cursor: pointer;
   line-height: 40px;
   color: #000;
-  background-color: rgb(250, 246, 173);
-  transition: all .3s linear;
+  background-color: #faf6ad;
+  transition: all 0.3s linear;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #000;
   color: #fff;
 }
 
-
-.btn-primary{
+.btn-primary {
   width: 150px;
   height: 40px;
   display: block;
@@ -151,15 +148,14 @@ margin-bottom: 20px;
   cursor: pointer;
   line-height: 40px;
   color: #000;
-  background-color: rgb(250, 246, 173);
-  transition: all .3s linear;
+  background-color: #faf6ad;
+  transition: all 0.3s linear;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #000;
   color: #fff;
 }
-
 
 .img-fluid {
   width: 100%;
@@ -195,9 +191,6 @@ margin-bottom: 20px;
   /*換行*/
 }
 
-@media screen {
-  
-}
 .col-3 {
   float: left;
   width: calc(100% / 4 - 30px);
@@ -229,7 +222,7 @@ margin-bottom: 20px;
   /*上右下左*/
 }
 
-.new{
+.new {
   position: relative;
   background-color: aliceblue;
   width: 100%;
@@ -238,7 +231,7 @@ margin-bottom: 20px;
   aspect-ratio: 16/9;
 }
 
-.new{
+.new {
   position: relative;
   background-color: aliceblue;
   width: 100%;
@@ -291,7 +284,7 @@ h2 {
 }
 
 footer {
-  background-color:rgb(250, 246, 173);;
+  background-color: #faf6ad;
   padding: 40px 0 40px 0;
 }
 
@@ -305,42 +298,31 @@ dd {
 }
 
 dd > a {
-  color: rgb(10, 10, 10);
+  color: #0a0a0a;
 }
 
-@media (max-width: 767px) {
-  h1 {
-    background-color: rgb(250, 243, 173);
-    float: left;
-  }
-
-.icon-menu{
+.icon-menu {
   float: right;
-    width: 15%;
-    background-color: rgb(250, 243, 173);  
-    color: black;
-    line-height: 40px;
-    text-align: center;
+  width: 15%;
+  background-color: #faf3ad;
+  color: black;
+  line-height: 40px;
+  text-align: center;
 }
 
-header > .container > nav{
+header > .container > nav {
   width: 100%;
   float: left;
-  display: none;
 }
-header > .container > nav.active{
+
+header > .container > nav > ul {
   display: block;
 }
 
-header > .container > nav > ul >li{
+header > .container > nav > ul > li {
   width: 100%;
 }
-.overflow-hidden{
+
+.overflow-hidden {
   overflow: hidden;
-}
-}
-@media (min-width: 768px) {
-  .icon-menu {
-    display: none;
-  }
 }
