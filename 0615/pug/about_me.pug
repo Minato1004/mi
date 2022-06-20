@@ -1,18 +1,20 @@
 doctype html
-html
+html(lang='en')
   head
     meta(charset='UTF-8')
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Bungu Wed
-    link(rel='stylesheet', href='public/css/test.css')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title About Me
   body
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 關於我
+    link(rel='stylesheet' href='public/css/test.css')
+    style.
     header
       .container
-        a.icon-menu(href="#") Menu
-        h1
-          a(href='index.html') Bungu
-        nav
+        h1 Bungu
         nav
           ul
             li
@@ -28,7 +30,8 @@ html
           p.breadcrumb
             a(href='index.html') 首頁
             | >
-            a(href='design_new.html') 新商品
+            a(href='＃')
+              | 關於我
         // ul>li*4>a.btn-primary{分類$$}
         div
           aside.col-3
@@ -41,44 +44,23 @@ html
                 a.btn-primary(href='') 所有商品
               li
                 a.btn-primary(href='') 聯絡據點
-        main.con-12.col-md-9.col-lg-10
+        main.col-9
           .row
     // 頁首結尾
     .container
-      h2.text-center 最新商品一覽
+      h2.text-left 關於我
     // 中間開始
     // .col-4*7>a>img[src="https://baconmockup.com/300/300" class="img-fluid img-rounded"]^p.title.text-center>a{作品標題$}^p.date.text-center{2022-6-15}
-    span.icon-new NEW
     .row
-      .right.col-4.text-center
+      .right.col-4
         img.img-fluid.img-rounded(src='https://picsum.photos/300/300' alt='')
         p.title.text-center
           a(href='#') 作品標題1
         p.date.text-center 2022-06-15
-      .col-4.text-center
+      .col-4
         img.img-fluid.img-rounded(src='https://picsum.photos/300/300' alt='')
         p.title.text-center
           a(href='#') 作品標題2
-        p.date.text-center 2022-06-15
-      .col-4.text-center
-        img.img-fluid.img-rounded(src='https://picsum.photos/300/300' alt='')
-        p.title.text-center
-          a(href='#') 作品標題3
-        p.date.text-center 2022-06-15
-      .col-4.text-center
-        img.img-fluid.img-rounded(src='https://picsum.photos/300/300' alt='')
-        p.title.text-center
-          a(href='#') 作品標題4
-        p.date.text-center 2022-06-15
-      .col-4.text-center
-        img.img-fluid.img-rounded(src='https://picsum.photos/300/300' alt='')
-        p.title.text-center
-          a(href='#') 作品標題5
-        p.date.text-center 2022-06-15
-      .col-4.text-center
-        img.img-fluid.img-rounded(src='https://picsum.photos/300/300' alt='')
-        p.title.text-center
-          a(href='#') 作品標題6
         p.date.text-center 2022-06-15
     // content end
     // footer>.container>dl*4>dt{標題$$}+dd*4>a{項目$$}^^^p.copyright.text-center{copyright}
@@ -128,4 +110,3 @@ html
               a(href='#') 項目04
         footer
         p.copyright.text-center 本網站只供學習使用，不用於商業用途
-  
