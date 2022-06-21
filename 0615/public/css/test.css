@@ -1,7 +1,6 @@
 @charset "UTF-8";
-
-header{
-  height: 200px;
+header {
+  height: 300px;
 }
 
 ul, ol {
@@ -16,68 +15,69 @@ body {
   margin: 0;
 }
 
-header>h1{
+header > h1 {
   line-height: 217px;
   text-align: center;
-  color: rgb(250, 246, 173);
+  color: #faf6ad;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-nav>ul{
+nav > ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  
 }
 
-nav>ul>li{
+nav > ul > li {
   float: left;
   width: 25%;
   box-sizing: border-box;
-  border-right: 5px solid rgb(249, 248, 248);
+  border-right: 5px solid #f9f8f8;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(250,246,173);
-  color: rgb(17, 17, 16);
+  background-color: #faf6ad;
+  color: #111110;
   text-align: center;
   line-height: 50px;
   text-decoration: none;
   font-size: 24px;
 }
 
-nav>ul>li>a:hover {
+nav > ul > li > a:hover {
   background-color: rgba(0, 0, 0, 0);
 }
 
-nav>ul>li:last-child{border-right: none;}
+nav > ul > li:last-child {
+  border-right: none;
+}
 
-nav>ul>li>a{
+nav > ul > li > a {
   display: block;
-width: 100%;
-text-align: center;
-line-height: 60px;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
 }
 
-.box1:hover{
-    background-color: #000;
-    color: #fff;
+.box1:hover {
+  background-color: #000;
+  color: #fff;
 }
 
-.breadcrumb{
-display: flex;
-margin-top: 20px;
-margin-bottom: 20px;  
+.breadcrumb {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.breadcrumb a{
+.breadcrumb a {
   color: black;
 }
 
-.btn-primary{
+.btn-primary {
   width: 150px;
   height: 40px;
   display: block;
@@ -88,17 +88,16 @@ margin-bottom: 20px;
   cursor: pointer;
   line-height: 40px;
   color: #000;
-  background-color: rgb(250, 246, 173);
-  transition: all .3s linear;
+  background-color: #faf6ad;
+  transition: all 0.3s linear;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #000;
   color: #fff;
 }
 
-         
-.btn-primary{
+.btn-primary {
   width: 150px;
   height: 40px;
   display: block;
@@ -109,17 +108,16 @@ margin-bottom: 20px;
   cursor: pointer;
   line-height: 40px;
   color: #000;
-  background-color: rgb(250, 246, 173);
-  transition: all .3s linear;
+  background-color: #faf6ad;
+  transition: all 0.3s linear;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #000;
   color: #fff;
 }
 
-          
-.btn-primary{
+.btn-primary {
   width: 150px;
   height: 40px;
   display: block;
@@ -130,17 +128,16 @@ margin-bottom: 20px;
   cursor: pointer;
   line-height: 40px;
   color: #000;
-  background-color: rgb(250, 246, 173);
-  transition: all .3s linear;
+  background-color: #faf6ad;
+  transition: all 0.3s linear;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #000;
   color: #fff;
 }
 
-
-.btn-primary{
+.btn-primary {
   width: 150px;
   height: 40px;
   display: block;
@@ -151,15 +148,14 @@ margin-bottom: 20px;
   cursor: pointer;
   line-height: 40px;
   color: #000;
-  background-color: rgb(250, 246, 173);
-  transition: all .3s linear;
+  background-color: #faf6ad;
+  transition: all 0.3s linear;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: #000;
   color: #fff;
 }
-
 
 .img-fluid {
   width: 100%;
@@ -226,35 +222,25 @@ margin-bottom: 20px;
   /*上右下左*/
 }
 
-@media (min-width:1200px){
-  .col-lg-3{
-      width: calc(100% / 4 - 30px);
-      margin:0px 15px 40px 15px;
-      /*上右下左*/
-  }
-  .col-lg-4{
-      width: calc(100% / 3 - 30px);
-      margin:0px 15px 40px 15px;
-      /*上右下左*/
-  }
-  .col-lg-6{
-      width: calc(100% / 2 - 30px);
-      margin:0px 15px 40px 15px;
-      /*上右下左*/
-  }
-  .col-lg-8{
-      width: calc(100% / 1.5 - 30px);
-      margin:0px 15px 40px 15px;
-      /*上右下左*/
-  }
-  .col-lg-9{
-      width: calc(100% / 1.33333333333 - 30px);
-      margin:0px 15px 40px 15px;
-      /*上右下左*/
-  }
+.col-10 {
+  --num: calc(12 / 10);
+  width: calc(100% / var(--num) - 30px);
+  margin: 0px 15px 40px 15px;
 }
 
-.new{
+.col-11 {
+  --num: calc(12 / 11);
+  width: calc(100% / var(--num) - 30px);
+  margin: 0px 15px 40px 15px;
+}
+
+.col-12 {
+  --num: calc(12 / 12);
+  width: calc(100% / var(--num) - 30px);
+  margin: 0px 15px 40px 15px;
+}
+
+.new {
   position: relative;
   background-color: aliceblue;
   width: 100%;
@@ -263,7 +249,160 @@ margin-bottom: 20px;
   aspect-ratio: 16/9;
 }
 
-.new{
+@media (min-width: 768px) {
+  .col-md-1 {
+    --num: calc(12 / 1);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-2 {
+    --num: calc(12 / 2);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-3 {
+    --num: calc(12 / 3);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-4 {
+    --num: calc(12 / 4);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-5 {
+    --num: calc(12 / 5);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-6 {
+    --num: calc(12 / 6);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-7 {
+    --num: calc(12 / 7);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-8 {
+    --num: calc(12 / 8);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-9 {
+    --num: calc(12 / 9);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-10 {
+    --num: calc(12 / 10);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-11 {
+    --num: calc(12 / 11);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-md-12 {
+    --num: calc(12 / 12);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1 {
+    --num: calc(12 / 1);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-2 {
+    --num: calc(12 / 2);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-3 {
+    --num: calc(12 / 3);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-4 {
+    --num: calc(12 / 4);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-5 {
+    --num: calc(12 / 5);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-6 {
+    --num: calc(12 / 6);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-7 {
+    --num: calc(12 / 7);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-8 {
+    --num: calc(12 / 8);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-9 {
+    --num: calc(12 / 9);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-10 {
+    --num: calc(12 / 10);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-11 {
+    --num: calc(12 / 11);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+
+  .col-lg-12 {
+    --num: calc(12 / 12);
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 40px 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .order-md-1 {
+    order: -1;
+  }
+}
+.new {
   position: relative;
   background-color: aliceblue;
   width: 100%;
@@ -316,7 +455,7 @@ h2 {
 }
 
 footer {
-  background-color:rgb(250, 246, 173);;
+  background-color: #faf6ad;
   padding: 40px 0 40px 0;
 }
 
@@ -330,105 +469,110 @@ dd {
 }
 
 dd > a {
-  color: rgb(10, 10, 10);
+  color: #0a0a0a;
 }
 
-@media (max-width: 767px) {
-  h1 {
-    background-color: rgb(250, 243, 173);
-    float: left;
-  }
-
-.icon-menu{
+.icon-menu {
   float: right;
-    width: 15%;
-    background-color: rgb(250, 243, 173);  
-    color: black;
-    line-height: 40px;
-    text-align: center;
+  width: 15%;
+  background-color: #faf3ad;
+  color: black;
+  line-height: 40px;
+  text-align: center;
 }
 
-header > .container > nav{
+header > .container > nav {
   width: 100%;
   float: left;
-  display: none;
 }
-header > .container > nav.active{
+
+header > .container > nav > ul {
   display: block;
 }
 
-header > .container > nav > ul >li{
+header > .container > nav > ul > li {
   width: 100%;
 }
-.overflow-hidden{
+
+.overflow-hidden {
   overflow: hidden;
 }
-}
+
+@media (min-width: 768px){
+    header>.container nav
+        position:relative;  
+    }
+    .submenu{
+        position: absolute;
+        background-color: aquamarine;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        top:60px;
+    }
+
+
 @media (min-width: 768px) {
   .icon-menu {
     display: none;
   }
 }
-
-@media (min-width: 768px) {
-  .col-md-3 {
-    width: calc(100% / 4 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
-
-  .col-md-4 {
-    width: calc(100% / 3 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
-
-  .col-md-6 {
-    width: calc(100% / 2 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
-
-  .col-md-8 {
-    width: calc(100% / 1.5 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
-
-  .col-md-9 {
-    width: calc(100% / 1.33333333333 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
+.fz-1 {
+  font-size: 1em;
 }
-@media (min-width: 1200px) {
-  .col-lg-3 {
-    width: calc(100% / 4 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
 
-  .col-lg-4 {
-    width: calc(100% / 3 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
+.fz-2 {
+  font-size: 2em;
+}
 
-  .col-lg-6 {
-    width: calc(100% / 2 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
+.fz-3 {
+  font-size: 3em;
+}
 
-  .col-lg-8 {
-    width: calc(100% / 1.5 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
+.fz-4 {
+  font-size: 4em;
+}
 
-  .col-lg-9 {
-    width: calc(100% / 1.33333333333 - 30px);
-    margin: 0px 15px 40px 15px;
-    /*上右下左*/
-  }
+.fz-5 {
+  font-size: 5em;
+}
+
+.fz-6 {
+  font-size: 6em;
+}
+
+.fz-7 {
+  font-size: 7em;
+}
+
+.fz-8 {
+  font-size: 8em;
+}
+
+.fz-9 {
+  font-size: 9em;
+}
+
+.fz-10 {
+  font-size: 10em;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.mb-2 {
+  margin-bottom: 2em;
+}
+
+.mb-3 {
+  margin-bottom: 3em;
+}
+
+.mb-4 {
+  margin-bottom: 4em;
+}
+
+.mb-5 {
+  margin-bottom: 5em;
 }
